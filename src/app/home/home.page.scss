@@ -1,0 +1,100 @@
+.header{
+  --background: #e62e5e;
+  color: white;
+}
+.marginlist{
+  margin: 20px;
+  margin-bottom: 0px;
+}
+ion-item{
+  border-color: #e62e5e;
+  --border: #e62e5e;
+}
+// .forgetl{
+//   text-align: end;
+//   padding: 0px;
+//   margin-top: 0px;
+//   margin-bottom: 0px;
+//   margin-left: 20px;
+//   margin-right: 20px;
+// }
+// .forgett{
+//   margin-top: 0px;
+//   margin-bottom: 0px;
+// }
+.marginlistbtn{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.btn{
+  --background: #e62e5e;
+  text-transform: none;
+}
+.span1{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.divider {
+  display: flex;
+  
+  &:before,
+  &:after {
+    content: "";
+    flex: 1;
+  }
+}
+.line {
+  align-items: center;
+  color: #cccccc;
+  
+  &:before,
+  &:after {
+    height: 1px;
+    margin: 0 1em;
+  }
+} 
+.one-line {
+  &:before,
+  &:after {
+     background: #cccccc;
+  }
+}
+.already {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+.already3 {
+  display: block;
+  text-align: center;
+  // margin-top: 50px;
+}
+.already2{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+  .centerItem{
+      text-align: center;
+      justify-content: center;
+      display: flex;
+      position: relative;
+      box-sizing: border-box;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      margin-bottom: 10px;
+  }
+      .avataar2{
+          height: 40px;
+          width: 40px;
+          margin-right: 10px;
+          margin-left: 10px;
+      }
+          .img{
+              height: 100%;
+              width: 100%;
+          }
+    .bold{
+      font-weight: 600;
+      color: #e62e5e;
+      cursor: pointer;
+  }
